@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: rgb(34, 47, 47);
+    font-family: fantasy;
+    letter-spacing:4px;
+   font-size: 1.5cm;
+}
+body{
+    background-color: rgb(12, 234, 175);
+    overflow-y: hidden;
+}
+h2{
+    text-align: center;
+    color: rgb(34, 47, 47);
+    font-family: fantasy;
+    letter-spacing:4px;
+   font-size: 1cm; 
+}
+table .abc{
+    column-gap: 5cm;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 8cm;
+    
+}
+div{
+    align-items: center;
+    position: absolute;
+    top: 18vh;
+}
+img{
+    height: 20rem;
+}
+.sub{
+    height: 2cm;
+    width: 2cm;
+    border-radius: 100%;
+    /* align-items: center; */
+    position: absolute;
+    top: 80vh;
+    left: 18.5cm;
+    font-size: x-large;
+    background-color: rgb(83, 223, 7);
+    font-family: fantasy;
+    color: rgb(174, 0, 255);
+}
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    background-color: rgb(226, 250, 6);
+  }
